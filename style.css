@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+.fa-youtube{
+    color: red;
+    
+}
+
+#video{
+    position:absolute;
+    z-index:-1;
+    top:0;
+    left:0;
+    width:100%; 
+    height:100vh;
+}
+#footer{
+
+    margin-top: 1000px;
+}
+
+#logo{
+    position: relative;
+    top: 50px;
+
+}
+/* #card{
+    transform: scale(0.2);
+    max-width: 100%;
+    height: auto;
+    animation: myRotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+} */
+#card:hover{
+    transform: scale(0.2);
+    size-adjust: 0px;
+    max-width: 100%;
+    height: auto;
+    animation: myRotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes myRotate{
+    from{margin-left: 0;}
+    to{margin-left: 0%;}
+    100%{transform: rotateZ(30deg);}
+}
