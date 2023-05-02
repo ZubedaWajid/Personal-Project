@@ -2,6 +2,17 @@ body{
     margin: 0px;
     background-color: black;
 }
+h1{
+    color: white;
+    font-size: medium;
+    margin-top: -195px;
+    margin-left: 350px;
+    
+}
+h2{
+    color: white;
+    margin-top: 20px;
+}
 .fa-youtube{
     color: red;
     
@@ -35,15 +46,14 @@ body{
 } */
 #card:hover{
     transform: scale(0.2);
-    size-adjust: 0px;
     max-width: 100%;
     height: auto;
     animation: myRotate;
-    animation-duration: 10s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 @keyframes myRotate{
-    from{margin-left: 0;}
+    from{margin-left: 5%;}
     to{margin-left: 0%;}
     100%{transform: rotateZ(30deg);}
 }
